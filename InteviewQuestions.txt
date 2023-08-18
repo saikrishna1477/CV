@@ -1,0 +1,32 @@
+Uipath:
+1)Explain about RE framework in Uipath
+2)How to configure RE Framework for pickup each row in excel instead of queue items from Orcestrator
+3)What are Wildcards in Uipath
+4)Any experience using PDF activities 
+5)Any experience related to Document processing 
+6)Any experience related to Email Automation and what email sources are automated and activities used
+7)what are OCR activities and when these are used?
+
+
+Excel questions:
+1)Did you use Vlookup in excel? Joins in SQL
+2)Conditional formatting in excel
+3)Power Query in excel
+4)Have you used VBA in excel
+5)What is the simplet way to merge mutiple excel files in a folder?
+
+
+Programming questions:
+1)What packages did you use till now for automations or any other packages you used till now
+2)Any experience with Selenium or any packages related to Web automation
+3)What are OOPS concepts
+4)What is garbage collection
+4)Any idea about pandas package
+5)What is exception handling and how it used in programs?
+6)Have you worked with Rest API calls?
+7)How to post a message in MS Teams when an email arrives from a specific sender in Outlook.
+How to achieve this using Power Automate
+
+PowerBI:
+1)How do we use Power Query append and merged queries
+2)How to combines all the files from a single folder and update data automatically whenever new file comes.
