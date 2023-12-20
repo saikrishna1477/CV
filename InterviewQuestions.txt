@@ -1,0 +1,47 @@
+1)How do you decide if a process can be automated?
+	1)Assess the tools and process that we are trying to automate in terms of complexity. 
+	2)Consider the development time versus the time taken to do manually. See if the process is repetative and the time period of the process execution(montly/yearly)
+	3)Environment consistency and resistance to change
+	4)Level of human intelligence and human interaction required in the process
+
+2)Why Uipath over other tools?
+Ans)1)User friendly interface - easy to navigate in the tool interface and easy to develop solutions.
+	2)Availability of RE Framework which enables robust workflows.
+	3)Low code requirement and less development time
+	4)Avaialbilty of Pre built Automation components 
+	5)Orchestrator- for maintaining bots, scheduling bots, ditstributing workload among robots.
+	6)OCR capabilities, Image Automation.
+	
+3)What is the process you recently automated?
+Ans) Issue follow up process - This process involves pulling reports form a tool called Auditboard, clean and transform these excel files, map the excel files.
+	 Pick the records and Go back to the auditboard, validate the fields in the screen with the excel, and then create workstream for each record by entering different fileds in the screen.
+	 During this execution, we take screenshots of every work item as evidence and document it in a word file. 
+	 Also we document the results in an excel file for easy tracking of completed and failed items.
+	 We also email the results to the process owner.
+	 The next process invloves reminder emails to the remediation owners who is supposed to action on the workstream added.
+	 This invloves taking screenshots of the issues for the owner and writing an email with custom writeup and email to these remeidation owner.
+
+
+Vialto Partners interview questions - 
+1)How is the postpone queue item useful?
+2)difference between delay queue item and delay transaction item
+3)I want a excel to be send via email which contains sucess message of every item gets processed. 
+Where shall I declare this process in RE framework?Is it in Get transaction/Process transaction or at any other place?
+4)How do you merged PDFs in a specific order and encrpyt the merged file?
+5)How do you read large excel file using Uipath where Uipath is having hard time read the file itself
+(My answer was - by dividing entire data into small chunks, by reading data as a database)
+6)How do you delete emails in smtp/imap email activities?(answer is a possible NO, we cant)
+7)Suppose there are 100 queue items in a quueue and only 50 of them processes leaving other 50 unprocessed. 
+The dispacher is scheduled to run and during this run we dont want to upload the 50 items that are already in queue. How do we achieve this?
+8)Best practices in developing a automation project
+(storing credentials in Orcestrator, proper commenting of code, variable name convention, error handling, code reusability by creating reusable workflows etc., )
+9)There is a website that we are trying to scrape. There is not next button but there is pages numbers to click like Page 2, Page 3 etc., 
+How will you navigate through the pages in this case.
+10)What is the disadvantage of using Outlook over SMTP/IMAP?
+11)How do you merge tables which have inconsistent column names/column ordering?
+12)How to get column number like A1, B1, C1 by using the column name(print column number of Employee name column)?
+13)What is recent project you worked on which saved time.
+14)Which activity to use for retieving data from database?
+15)The data retrieved from database results in 0 records. What could be the reason?
+16)What are the steps involved in connecting the Oracle database to Uipath to query data?
+17)Why a seperate dispacher and a sperate perfomer?
